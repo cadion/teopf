@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="TEOPF — 게임 개발 팀 공식 웹사이트 템플릿" />
+  <title>TEOPF | Game Development Team</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500;700;800&family=Noto+Sans+KR:wght@400;500;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body>
+  <!-- 네비게이션 -->
+  <header class="site-header" id="top">
+    <div class="container header-inner">
+      <a class="logo" href="#top" aria-label="TEOPF 홈">
+        <span class="logo-mark">◆</span>
+        <span class="logo-text">TEOPF</span>
+      </a>
+
+      <button class="nav-toggle" id="navToggle" aria-label="메뉴 열기" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+
+      <nav class="site-nav" id="siteNav" aria-label="주요 메뉴">
+        <a href="#about">About</a>
+        <a href="#games">Games</a>
+        <a href="#team">Team</a>
+        <a href="#news">News</a>
+        <a href="#contact" class="nav-cta">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- 히어로 -->
+    <section class="hero">
+      <div class="hero-bg" aria-hidden="true">
+        <div class="grid-overlay"></div>
+        <div class="orb orb-a"></div>
+        <div class="orb orb-b"></div>
+      </div>
+
+      <div class="container hero-content">
+        <p class="hero-kicker">Indie Game Studio Template</p>
+        <h1 class="hero-title">
+          We craft worlds<br />
+          <span class="gradient-text">players never forget</span>
+        </h1>
+        <p class="hero-desc">
+          TEOPF는 몰입감 있는 스토리와 손맛 좋은 게임플레이를 만드는 게임 개발 팀입니다.
+          이 페이지는 팀 소개·프로젝트·채용 안내용으로 바로 쓸 수 있는 템플릿입니다.
+        </p>
+        <div class="hero-actions">
+          <a class="btn btn-primary" href="#games">프로젝트 보기</a>
+          <a class="btn btn-ghost" href="#contact">합류 문의</a>
+        </div>
+
+        <dl class="hero-stats">
+          <div>
+            <dt>Projects</dt>
+            <dd>3+</dd>
+          </div>
+          <div>
+            <dt>Team</dt>
+            <dd>6</dd>
+          </div>
+          <div>
+            <dt>Since</dt>
+            <dd>2024</dd>
+          </div>
+        </dl>
+      </div>
+    </section>
+
+    <!-- About -->
+    <section class="section" id="about">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">About Us</p>
+          <h2>작은 팀이 만드는<br />큰 경험</h2>
+          <p class="section-desc">
+            기획·아트·프로그래밍·사운드가 한 테이블에서 움직이는 인디 스튜디오 구조입니다.
+            플레이어가 “한 판 더”를 외치게 만드는 피드백 루프를 최우선으로 둡니다.
+          </p>
+        </header>
+
+        <div class="feature-grid">
+          <article class="feature-card">
+            <div class="feature-icon">🎯</div>
+            <h3>Play-first Design</h3>
+            <p>콘셉트보다 프로토타입. 빠르게 만들고, 빠르게 부수고, 재미만 남깁니다.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🎨</div>
+            <h3>Strong Visual Identity</h3>
+            <p>한눈에 기억되는 아트 디렉션과 UI/UX로 팀 브랜드를 쌓습니다.</p>
+          </article>
+          <article class="feature-card">
+            <div class="feature-icon">🧪</div>
+            <h3>Ship Culture</h3>
+            <p>완성되지 않은 아이디어보다, 출시 가능한 빌드를 목표로 일합니다.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Games -->
+    <section class="section section-alt" id="games">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Games</p>
+          <h2>프로젝트 쇼케이스</h2>
+          <p class="section-desc">
+            카드의 제목·설명·태그·상태를 팀 프로젝트에 맞게 교체하세요.
+            썸네일 영역은 이미지 URL 또는 단색 플레이스홀더로 사용할 수 있습니다.
+          </p>
+        </header>
+
+        <div class="game-grid">
+          <article class="game-card">
+            <div class="game-thumb thumb-a">
+              <span class="status-badge status-live">Released</span>
+            </div>
+            <div class="game-body">
+              <div class="tags">
+                <span>Action</span><span>Roguelite</span>
+              </div>
+              <h3>Neon Drift</h3>
+              <p>사이버펑크 질주 액션. 짧은 런, 깊은 빌드 조합.</p>
+              <a class="text-link" href="#" aria-disabled="true">상세 보기 →</a>
+            </div>
+          </article>
+
+          <article class="game-card">
+            <div class="game-thumb thumb-b">
+              <span class="status-badge status-dev">In Development</span>
+            </div>
+            <div class="game-body">
+              <div class="tags">
+                <span>Puzzle</span><span>Narrative</span>
+              </div>
+              <h3>Paper Moons</h3>
+              <p>접히는 세계 위의 이야기 퍼즐. 감정 곡선 중심 디자인.</p>
+              <a class="text-link" href="#" aria-disabled="true">상세 보기 →</a>
+            </div>
+          </article>
+
+          <article class="game-card">
+            <div class="game-thumb thumb-c">
+              <span class="status-badge status-concept">Concept</span>
+            </div>
+            <div class="game-body">
+              <div class="tags">
+                <span>Strategy</span><span>Multiplayer</span>
+              </div>
+              <h3>Forge Circuit</h3>
+              <p>실시간 제작·전투 하이브리드. 프로토타입 단계.</p>
+              <a class="text-link" href="#" aria-disabled="true">상세 보기 →</a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Team -->
+    <section class="section" id="team">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">Team</p>
+          <h2>함께 만드는 사람들</h2>
+          <p class="section-desc">
+            이름·역할·한 줄 소개를 실제 팀원 정보로 바꾸면 됩니다.
+          </p>
+        </header>
+
+        <div class="team-grid">
+          <article class="member-card">
+            <div class="avatar" style="--hue: 280">PD</div>
+            <h3>Park Do-yun</h3>
+            <p class="role">Game Director</p>
+            <p>재미의 기준을 정하고, 범위를 지킵니다.</p>
+          </article>
+          <article class="member-card">
+            <div class="avatar" style="--hue: 190">KJ</div>
+            <h3>Kim Jina</h3>
+            <p class="role">Lead Artist</p>
+            <p>색과 실루엣으로 세계관을 그립니다.</p>
+          </article>
+          <article class="member-card">
+            <div class="avatar" style="--hue: 145">LH</div>
+            <h3>Lee Hyeon</h3>
+            <p class="role">Gameplay Engineer</p>
+            <p>입력 지연 0.1초를 집요하게 깎습니다.</p>
+          </article>
+          <article class="member-card">
+            <div class="avatar" style="--hue: 30">CS</div>
+            <h3>Choi Seo-a</h3>
+            <p class="role">Narrative Designer</p>
+            <p>선택지가 의미 있게 느껴지도록 씁니다.</p>
+          </article>
+          <article class="member-card">
+            <div class="avatar" style="--hue: 340">JY</div>
+            <h3>Jung Yul</h3>
+            <p class="role">Sound Designer</p>
+            <p>히트스탑만큼 중요한 사운드 큐를 만듭니다.</p>
+          </article>
+          <article class="member-card member-card-cta">
+            <div class="avatar avatar-plus">+</div>
+            <h3>You?</h3>
+            <p class="role">Open Role</p>
+            <p>함께 만들고 싶다면 Contact로 연락 주세요.</p>
+            <a class="btn btn-small btn-primary" href="#contact">지원하기</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- News -->
+    <section class="section section-alt" id="news">
+      <div class="container">
+        <header class="section-head">
+          <p class="eyebrow">News</p>
+          <h2>최근 소식</h2>
+          <p class="section-desc">개발 로그, 출시 소식, 채용 공고를 올리는 영역입니다.</p>
+        </header>
+
+        <div class="news-list">
+          <article class="news-item">
+            <time datetime="2026-07-01">2026.07.01</time>
+            <div>
+              <h3>팀 웹사이트 템플릿 오픈</h3>
+              <p>GitHub Pages로 바로 배포 가능한 정적 템플릿을 공개했습니다.</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <time datetime="2026-06-12">2026.06.12</time>
+            <div>
+              <h3>Paper Moons 수직 슬라이스 완료</h3>
+              <p>핵심 퍼즐 루프와 오프닝 시퀀스 플레이 가능 빌드를 확보했습니다.</p>
+            </div>
+          </article>
+          <article class="news-item">
+            <time datetime="2026-05-20">2026.05.20</time>
+            <div>
+              <h3>프로그래머 / 아티스트 모집</h3>
+              <p>주 1회 동기화, 비동기 협업 중심의 인디 팀입니다. 포트폴리오 환영.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact -->
+    <section class="section" id="contact">
+      <div class="container contact-layout">
+        <header class="section-head section-head-left">
+          <p class="eyebrow">Contact</p>
+          <h2>함께 만들 사람을<br />찾고 있습니다</h2>
+          <p class="section-desc">
+            협업·채용·미디어 문의는 아래 폼 또는 이메일로 보내 주세요.
+            (이 폼은 프론트엔드 데모입니다. 실제 전송은 백엔드/폼 서비스 연동이 필요합니다.)
+          </p>
+          <ul class="contact-meta">
+            <li><strong>Email</strong> hello@teopf.studio</li>
+            <li><strong>Discord</strong> discord.gg/your-invite</li>
+            <li><strong>Location</strong> Seoul / Remote</li>
+          </ul>
+        </header>
+
+        <form class="contact-form" id="contactForm" novalidate>
+          <label>
+            <span>이름</span>
+            <input type="text" name="name" placeholder="홍길동" required />
+          </label>
+          <label>
+            <span>이메일</span>
+            <input type="email" name="email" placeholder="you@example.com" required />
+          </label>
+          <label>
+            <span>관심 분야</span>
+            <select name="role">
+              <option value="general">일반 문의</option>
+              <option value="programming">프로그래밍</option>
+              <option value="art">아트 / UI</option>
+              <option value="design">기획 / 내러티브</option>
+              <option value="sound">사운드</option>
+              <option value="press">미디어 / 파트너십</option>
+            </select>
+          </label>
+          <label>
+            <span>메시지</span>
+            <textarea name="message" rows="5" placeholder="간단한 소개와 포트폴리오 링크를 남겨 주세요." required></textarea>
+          </label>
+          <button type="submit" class="btn btn-primary btn-full">메시지 보내기</button>
+          <p class="form-note" id="formNote" role="status" aria-live="polite"></p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-brand">
+        <span class="logo-mark">◆</span>
+        <strong>TEOPF</strong>
+        <p>Game development team website template.</p>
+      </div>
+      <div class="footer-links">
+        <a href="#about">About</a>
+        <a href="#games">Games</a>
+        <a href="#team">Team</a>
+        <a href="#news">News</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <p class="copyright">© <span id="year"></span> TEOPF. All rights reserved.</p>
+    </div>
+  </footer>
+
+  <script src="js/main.js"></script>
+</body>
+</html>
