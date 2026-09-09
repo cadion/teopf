@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="ko">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="index,follow">
+    <title>DebugDefense 계정 및 데이터 삭제</title>
+    <style>
+      :root { color-scheme: light dark; font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; }
+      body { margin: 0 auto; max-width: 760px; padding: 40px 20px 64px; line-height: 1.7; }
+      h1 { line-height: 1.25; }
+      h2 { margin-top: 2rem; }
+      .meta { color: #666; }
+      .notice { padding: 16px 18px; border-left: 4px solid #6750a4; background: rgba(103, 80, 164, .1); }
+      .request { display: inline-block; padding: 10px 14px; border-radius: 10px; background: #6750a4; color: #fff; font-weight: 700; text-decoration: none; }
+      a { overflow-wrap: anywhere; }
+      @media (prefers-color-scheme: dark) { .meta { color: #aaa; } }
+    </style>
+  </head>
+  <body>
+    <main>
+      <h1>DebugDefense 계정 및 데이터 삭제</h1>
+      <p class="meta">최종 업데이트: 2026년 9월 9일</p>
+
+      <p class="notice"><strong>앱에서 직접 삭제할 수 있습니다.</strong><br>DebugDefense에서 설정 → 앱 정보·라이선스 → 데이터 관리 → 동기화 계정 삭제를 선택하고, 필요한 경우 Google 재로그인을 완료하세요.</p>
+
+      <h2>앱에 접근할 수 없는 경우</h2>
+      <p>아래 이메일로 삭제를 요청할 수 있습니다. 본문에 게임에 연결한 Google 이메일 주소를 적어 주세요. 비밀번호, 인증 코드 또는 결제수단 정보는 보내지 마세요.</p>
+      <p><a class="request" href="mailto:teopfgame@gmail.com?subject=DebugDefense%20계정%20및%20데이터%20삭제%20요청">이메일로 삭제 요청하기</a></p>
+
+      <h2>삭제되는 데이터</h2>
+      <ul>
+        <li>DebugDefense에 연결된 Firebase Authentication 계정</li>
+        <li>해당 계정의 Firestore 게임 진행 정보와 동기화 메타데이터</li>
+        <li>삭제를 요청한 앱 사용자와 연결된 RevenueCat 고객 정보 중 삭제 가능한 정보</li>
+      </ul>
+
+      <h2>별도 보관될 수 있는 데이터</h2>
+      <p>기기 안에만 있는 로컬 진행 정보는 앱의 진행 초기화, Android 앱 데이터 삭제 또는 앱 제거로 삭제할 수 있습니다. Google Play 구매 내역과 거래 기록은 구매 복원, 부정 사용 방지, 분쟁 처리 및 법적 의무 이행을 위해 최대 5년 또는 관련 법령이 요구하는 기간 동안 제한적으로 보관될 수 있습니다.</p>
+
+      <h2>처리 기간</h2>
+      <p>앱에서 삭제하면 Firebase 계정과 클라우드 게임 진행 정보의 삭제를 즉시 요청합니다. 서비스 제공업체의 백업·보호 시스템 반영에는 최대 30일이 걸릴 수 있습니다. 이메일 요청은 계정 소유 확인 후 30일 이내에 처리 결과를 안내합니다.</p>
+
+      <h2>Account and data deletion</h2>
+      <p>In DebugDefense, open Settings → App information &amp; licenses → Data management → Delete synced account. If you cannot access the app, email <a href="mailto:teopfgame@gmail.com">teopfgame@gmail.com</a> with the Google email linked to the game. Never send a password, verification code, or payment information.</p>
+      <p>We delete the linked Firebase Authentication account, Firestore game progress, and deletable RevenueCat customer data. Provider backup deletion or a verified email request may take up to 30 days. Purchase records may be retained for up to five years, or for the period required by applicable law, for restoration, fraud prevention, disputes, and legal compliance.</p>
+
+      <p><a href="../../privacy/debugdefense/">DebugDefense 개인정보처리방침</a></p>
+    </main>
+  </body>
+</html>
